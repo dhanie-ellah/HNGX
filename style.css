@@ -1,0 +1,32 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.displayImage{
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin: auto;
+}
+
+.displayImage img{
+  width: 125%;
+}
+
+h1, p{
+  text-align: center;
+}
